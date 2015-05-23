@@ -1,0 +1,17 @@
+.button {
+	background: #e50000;
+	color: white;
+	font-family: SimHei, LiHei Pro Medium, STHeiti !important;
+	font-size: 1em;
+	border: none;
+	width: 100px;
+	height: 25px;
+}
+
+.button:hover {
+	background: #ef8811;
+}
+
+.button:active {
+	background: #242730;
+}

@@ -1,0 +1,30 @@
+.portrait {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 10%;
+	top: 20px;
+}
+
+.contentContainner > div {
+	position: relative;
+	top: 40px;
+	left: 10%;
+	margin-bottom: 35px;
+}
+
+.contentContainner > div > p {
+	display: inline;
+}
+
+.contentContainner > div > span {
+	font-family: "Microsoft YaHei", sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#setInfo {
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+}

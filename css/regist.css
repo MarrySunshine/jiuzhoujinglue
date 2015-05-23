@@ -1,0 +1,17 @@
+.allContainer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #f0a28d;
+	position: fixed;
+}
+
+.logo {
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+	top: 50px;
+}

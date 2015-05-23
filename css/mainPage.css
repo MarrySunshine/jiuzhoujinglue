@@ -1,0 +1,122 @@
+.allContainer {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.topBar {
+	background-color: #e1451b;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 20;
+}
+
+.logo {
+	width: 180px;
+	height: 100%;
+}
+
+.date {
+	position: absolute;
+	font-family: "Microsoft YaHei", sans-serif;
+	font-size: 1.2em;
+	color: white;
+	top: 50%;
+	left: 26%;
+	text-shadow: 2px 2px 2px rgba(00, 00, 00, 0.75);
+	margin-top: -0.6em;
+}
+
+.logout {
+	height: 30px;
+	position: absolute;
+	left: 94%;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.logout:hover {
+	height: 35px;
+}
+
+.leftBar {
+	position: absolute;
+	top: 70px;
+	height: 100%;
+	width: 180px;
+	background-color: #e1451b;
+	position: fixed;
+}
+
+.viewSelector {
+	border: none;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+.viewSelector > label > img {
+	height: 20px;
+	position: relative;
+	float: left;
+	left: 10%;
+	top: 1.0em;
+}
+
+.viewSelector > label {
+	font-family: SimHei, LiHei Pro Medium, STHeiti !important;
+	font-size: 20px;
+	color: rgb( 70, 84, 104 );
+	font-size: 20px;
+	position: relative;
+	cursor: pointer !important;
+}
+
+.viewSelector > label:active {
+	background: none;
+}
+
+.viewSelector > label > p {
+	position: relative;
+	top: 1.0em;
+}
+
+.pageRadio {
+	display: none;
+}
+
+.pageRadio:checked + .viewSelector {
+	background-color: #242730;
+}
+
+.pageRadio:checked + .viewSelector > label {
+	color: white;
+}
+
+.viewSelector:hover {
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	background-color: #ef8811;
+}
+
+.menu {
+	position: relative;
+	top: 30%;
+}
+
+.content {
+	position: absolute;
+	top: 71px;
+	left: 181px;
+	right: 0;
+	bottom: 0;
+}
